@@ -47,21 +47,49 @@ Most of my development happens in private repositories, so public code is only o
 
 Some of these projects are private, so the descriptions below share their purpose without exposing repository names, customer information, or implementation details.
 
-- **Flutter mobile apps:** Cross-platform Android and iOS applications built with Flutter and Dart.
-- **Hospitality management platform:** Property, booking, staff, inventory, and revenue workflows for hospitality operators.
-- **Food delivery marketplace backend:** Services coordinating customer, vendor, and driver workflows, with payments and notifications.
-- **Internal management platform:** Role-based company tools for documents, processes, and operational collaboration.
-- **Multi-organization inventory system:** Inventory, onboarding, organization management, and access workflows for multiple teams.
-- **AI voice experiences:** Conversational voice-agent prototypes using Google AI services.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📱 Flutter Mobile Apps</h3>
+      <p>Cross-platform Android and iOS applications built with Flutter and Dart.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏨 Hospitality Management</h3>
+      <p>Property, booking, staff, inventory, and revenue workflows for hospitality operators.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍽️ Food Delivery Marketplace</h3>
+      <p>Backend services coordinating customer, vendor, and driver workflows, payments, and notifications.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧩 Internal Management Tools</h3>
+      <p>Role-based company tools for documents, processes, and operational collaboration.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📦 Multi-Organization Inventory</h3>
+      <p>Inventory, onboarding, organization management, and access workflows for multiple teams.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎙️ AI Voice Experiences</h3>
+      <p>Conversational voice-agent prototypes using Google AI services.</p>
+    </td>
+  </tr>
+</table>
 
 ## GitHub Stats
 
+These cards are intended to show combined public and private repository activity, including contributions and language usage. Private data is included only when the `GH_STATS_TOKEN` Actions secret is configured with access to those repositories.
+
 <p align="center">
-  <img height="165" src="./profile/stats.svg" alt="GitHub stats, including private repository activity" />
-  <img height="165" src="./profile/top-langs.svg" alt="Most used languages, including private repositories" />
+  <img height="165" src="./profile/stats.svg" alt="GitHub statistics and contributions across public and private repositories" />
+  <img height="165" src="./profile/top-langs.svg" alt="Most used languages across public and private repositories" />
 </p>
 
-The cards refresh daily and after profile-repository updates. They use public data until the `GH_STATS_TOKEN` repository secret is configured. To include private stats and languages, create a classic GitHub token with `repo` and `read:user` scopes and add it as [`GH_STATS_TOKEN`](https://github.com/KWVans/KWVans/settings/secrets/actions/new) in the repository’s Actions secrets. Then run **Update Profile Stats** from the [Actions tab](https://github.com/KWVans/KWVans/actions). Keep the token in GitHub Secrets; never put it in this README or share it in chat.
+The cards refresh daily and after profile-repository updates. To include private stats and languages, create a classic GitHub token with `repo` and `read:user` scopes and add it as [`GH_STATS_TOKEN`](https://github.com/KWVans/KWVans/settings/secrets/actions/new) in the repository’s Actions secrets. Then run **Update Profile Stats** from the [Actions tab](https://github.com/KWVans/KWVans/actions). Keep the token in GitHub Secrets; never put it in this README or share it in chat.
 
 ## Contribution Timeline
 
