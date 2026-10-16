@@ -46,6 +46,11 @@ jobs:
           fi
           echo "Token identity and private-repository access verified."
 
+      - name: Generate GitHub contribution timeline
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: python scripts/generate-contribution-timeline.py
+
       - name: Generate GitHub stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:

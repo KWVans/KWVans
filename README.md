@@ -127,17 +127,15 @@ Some of these projects are private, so the descriptions below share their purpos
 ## Contribution Timeline
 
 <p align="center">
-  <a href="https://github.com/KWVans">
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KWVans&theme=tokyo-night&hide_border=true" alt="KWVans contribution timeline" />
-  </a>
+  <img width="100%" src="./profile/contributions.svg" alt="KWVans GitHub contribution timeline" />
 </p>
 
 ## GitHub Achievements
 
 <p align="center">
-  <img alt="Quickdraw achievement" src="https://img.shields.io/badge/Quickdraw-GitHub_Achievement-8957e5?style=for-the-badge&logo=github&logoColor=white" />
-  <img alt="Pull Shark achievement, level 2" src="https://img.shields.io/badge/Pull_Shark-Level_2-238636?style=for-the-badge&logo=github&logoColor=white" />
-  <img alt="YOLO achievement" src="https://img.shields.io/badge/YOLO-GitHub_Achievement-1f6feb?style=for-the-badge&logo=github&logoColor=white" />
+  <img width="88" height="88" alt="Quickdraw GitHub achievement" src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" />
+  <img width="88" height="88" alt="Pull Shark GitHub achievement, level 2" src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" />
+  <img width="88" height="88" alt="YOLO GitHub achievement" src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" />
 </p>
 
 ---
