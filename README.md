@@ -43,6 +43,17 @@ Most of my development happens in private repositories, so public code is only o
 - **AI integration:** Google AI / Gemini APIs, Genkit
 - **Tools & deployment:** Git, Cloudflare, Netlify, Vercel
 
+## Selected Projects
+
+Some of these projects are private, so the descriptions below share their purpose without exposing repository names, customer information, or implementation details.
+
+- **Flutter mobile apps:** Cross-platform Android and iOS applications built with Flutter and Dart.
+- **Hospitality management platform:** Property, booking, staff, inventory, and revenue workflows for hospitality operators.
+- **Food delivery marketplace backend:** Services coordinating customer, vendor, and driver workflows, with payments and notifications.
+- **Internal management platform:** Role-based company tools for documents, processes, and operational collaboration.
+- **Multi-organization inventory system:** Inventory, onboarding, organization management, and access workflows for multiple teams.
+- **AI voice experiences:** Conversational voice-agent prototypes using Google AI services.
+
 ## GitHub Stats
 
 <p align="center">
@@ -50,7 +61,7 @@ Most of my development happens in private repositories, so public code is only o
   <img height="165" src="./profile/top-langs.svg" alt="Most used languages, including private repositories" />
 </p>
 
-These cards are generated in this profile repository by GitHub Actions. To include private repository data, add a GitHub personal access token as the repository Actions secret `GH_STATS_TOKEN`, then run **Update Profile Stats** from the Actions tab. The token is only used by the workflow and is never stored in this README. The generated cards show aggregate stats and language totals without listing private repositories.
+The cards refresh daily and after profile-repository updates. They use public data until the `GH_STATS_TOKEN` repository secret is configured. To include private stats and languages, create a classic GitHub token with `repo` and `read:user` scopes and add it as [`GH_STATS_TOKEN`](https://github.com/KWVans/KWVans/settings/secrets/actions/new) in the repository’s Actions secrets. Then run **Update Profile Stats** from the [Actions tab](https://github.com/KWVans/KWVans/actions). Keep the token in GitHub Secrets; never put it in this README or share it in chat.
 
 ## Contribution Timeline
 
