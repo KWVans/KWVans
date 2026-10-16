@@ -37,11 +37,48 @@ Most of my development happens in private repositories, so public code is only o
 
 ## Skills
 
-- **Mobile:** Flutter, Dart, cross-platform application development
-- **Web:** React, Next.js, TypeScript, JavaScript, Tailwind CSS
-- **Backend & data:** Firebase, Supabase, Node.js, Hono, Express
-- **AI integration:** Google AI / Gemini APIs, Genkit
-- **Tools & deployment:** Git, Cloudflare, Netlify, Vercel
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📱 Mobile Development</h3>
+      <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+      <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+      <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Web Development</h3>
+      <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚙️ Backend & Data</h3>
+      <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+      <img alt="Hono" src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" />
+      <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+      <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>✨ AI Integration</h3>
+      <img alt="Google AI" src="https://img.shields.io/badge/Google_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+      <img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+      <img alt="Genkit" src="https://img.shields.io/badge/Genkit-4285F4?style=for-the-badge&logo=firebase&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🚀 Tools & Deployment</h3>
+      <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+      <img alt="Netlify" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+      <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ## Selected Projects
 
@@ -89,13 +126,19 @@ Some of these projects are private, so the descriptions below share their purpos
 
 ## Contribution Timeline
 
-[![KWVans contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=KWVans&theme=tokyo-night&hide_border=true)](https://github.com/KWVans)
-
-The timeline reflects GitHub contribution activity over time. Commits, pull requests, and issues may contribute to GitHub’s activity totals; private repository names and content remain private. For the latest activity breakdown, visit [my GitHub contributions](https://github.com/KWVans?tab=overview).
+<p align="center">
+  <a href="https://github.com/KWVans">
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KWVans&theme=tokyo-night&hide_border=true" alt="KWVans contribution timeline" />
+  </a>
+</p>
 
 ## GitHub Achievements
 
-Quickdraw · Pull Shark ×2 · YOLO
+<p align="center">
+  <img alt="Quickdraw achievement" src="https://img.shields.io/badge/Quickdraw-GitHub_Achievement-8957e5?style=for-the-badge&logo=github&logoColor=white" />
+  <img alt="Pull Shark achievement, level 2" src="https://img.shields.io/badge/Pull_Shark-Level_2-238636?style=for-the-badge&logo=github&logoColor=white" />
+  <img alt="YOLO achievement" src="https://img.shields.io/badge/YOLO-GitHub_Achievement-1f6feb?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
 ---
 
