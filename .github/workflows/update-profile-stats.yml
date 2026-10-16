@@ -26,11 +26,31 @@ jobs:
             exit 1
           fi
 
+          api="https://api.github.com"
+          login=$(curl --fail --silent --show-error \
+            -H "Authorization: Bearer $GH_STATS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "$api/user" | jq -r '.login')
+          if [ "$login" != "KWVans" ]; then
+            echo "::error::GH_STATS_TOKEN authenticated as '$login', but the stats are for KWVans. Use a token created by the KWVans account."
+            exit 1
+          fi
+
+          private_repo_count=$(curl --fail --silent --show-error \
+            -H "Authorization: Bearer $GH_STATS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "$api/user/repos?visibility=private&per_page=1" | jq 'length')
+          if [ "$private_repo_count" -lt 1 ]; then
+            echo "::error::GH_STATS_TOKEN cannot access any private repositories. Check its repo scope and repository/organization access. No repository names were logged."
+            exit 1
+          fi
+          echo "Token identity and private-repository access verified."
+
       - name: Generate GitHub stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=KWVans&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true
+          options: username=KWVans&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=contributions,all_time_contribs&contribs_include_own_repos=true
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
