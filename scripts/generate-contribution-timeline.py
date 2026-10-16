@@ -73,7 +73,8 @@ def render_svg(calendar: dict) -> str:
     gap = 3
     step = cell + gap
     left = 42
-    top = 34
+    # Leave a dedicated row for the total and another for month labels.
+    top = 58
     cols = len(weeks)
     width = left + cols * step + 8
     height = top + 7 * step + 32
