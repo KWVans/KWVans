@@ -82,14 +82,10 @@ Some of these projects are private, so the descriptions below share their purpos
 
 ## GitHub Stats
 
-These cards are intended to show combined public and private repository activity, including contributions and language usage. Private data is included only when the `GH_STATS_TOKEN` Actions secret is configured with access to those repositories.
-
 <p align="center">
-  <img height="165" src="./profile/stats.svg" alt="GitHub statistics and contributions across public and private repositories" />
-  <img height="165" src="./profile/top-langs.svg" alt="Most used languages across public and private repositories" />
+  <img width="467" src="./profile/stats.svg" alt="GitHub statistics and contributions" />
+  <img width="300" src="./profile/top-langs.svg" alt="Most used languages" />
 </p>
-
-The cards refresh daily and after profile-repository updates. To include private stats and languages, create a classic GitHub token with `repo` and `read:user` scopes and add it as [`GH_STATS_TOKEN`](https://github.com/KWVans/KWVans/settings/secrets/actions/new) in the repository’s Actions secrets. Then run **Update Profile Stats** from the [Actions tab](https://github.com/KWVans/KWVans/actions). Keep the token in GitHub Secrets; never put it in this README or share it in chat.
 
 ## Contribution Timeline
 
