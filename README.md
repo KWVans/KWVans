@@ -36,6 +36,40 @@ Most of my development happens in private repositories, so public code is only o
   <img alt="Google AI" src="https://img.shields.io/badge/Google_AI-4285F4?style=flat-square&logo=google&logoColor=white" />
 </p>
 
+## How I Work
+
+- Start with the user problem and clarify what success looks like.
+- Keep code organized, readable, and maintainable as features grow.
+- Build in small iterations and validate the important flows.
+- Communicate progress and ship improvements consistently.
+
+## Flutter Focus
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧭 State Management</h3>
+      <p>Keep state changes predictable, UI responsive, and data flow easy to follow.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏗️ App Architecture</h3>
+      <p>Organize features into clear boundaries so screens, business logic, and data access can evolve independently.</p>
+    </td>
+  </tr>
+</table>
+
+## Project Workflow
+
+<table>
+  <tr>
+    <td align="center"><b>1 · Understand</b><br/>Goals and requirements</td>
+    <td align="center"><b>2 · Plan</b><br/>Structure and milestones</td>
+    <td align="center"><b>3 · Build</b><br/>Small, focused iterations</td>
+    <td align="center"><b>4 · Validate</b><br/>Check key user flows</td>
+    <td align="center"><b>5 · Ship</b><br/>Deploy and improve</td>
+  </tr>
+</table>
+
 ## Skills
 
 <table>
@@ -126,10 +160,13 @@ Some of these projects are private, so the descriptions below share their purpos
   <img width="300" src="./profile/top-langs.svg" alt="Most used languages" />
 </p>
 
-## Contribution Timeline
+## Contribution Calendar & Streak
 
 <p align="center">
-  <img width="100%" src="./profile/contributions.svg" alt="KWVans GitHub contribution timeline" />
+  <img width="100%" src="./profile/contributions.svg" alt="KWVans GitHub contribution calendar" />
+</p>
+<p align="center">
+  <img width="620" src="./profile/streak.svg" alt="Current and longest GitHub contribution streak" />
 </p>
 
 ## GitHub Achievements

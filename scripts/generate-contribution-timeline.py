@@ -125,6 +125,44 @@ def render_svg(calendar: dict) -> str:
     return "\n".join(parts)
 
 
+def render_streak_svg(calendar: dict) -> str:
+    days = [
+        (datetime.strptime(day["date"], "%Y-%m-%d").date(), day["contributionCount"])
+        for week in calendar["weeks"]
+        for day in week["contributionDays"]
+    ]
+    days.sort(key=lambda item: item[0])
+
+    longest = 0
+    run = 0
+    for _, count in days:
+        run = run + 1 if count else 0
+        longest = max(longest, run)
+
+    today = datetime.now(timezone.utc).date()
+    day_counts = {date: count for date, count in days}
+    latest = today if day_counts.get(today, 0) else today - timedelta(days=1)
+    current = 0
+    while day_counts.get(latest - timedelta(days=current), 0):
+        current += 1
+
+    return "\n".join([
+        '<svg xmlns="http://www.w3.org/2000/svg" width="620" height="150" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">',
+        '<title id="title">KWVans contribution streak</title>',
+        '<desc id="desc">Current and longest GitHub contribution streaks, calculated from the contribution calendar.</desc>',
+        '<rect width="620" height="150" rx="12" fill="#0d1117" stroke="#30363d"/>',
+        '<text x="28" y="35" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">CONTRIBUTION STREAK</text>',
+        '<line x1="310" y1="54" x2="310" y2="128" stroke="#30363d"/>',
+        f'<text x="28" y="94" fill="#39d353" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">{current}</text>',
+        '<text x="80" y="91" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="16">days</text>',
+        '<text x="28" y="117" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">CURRENT STREAK</text>',
+        f'<text x="338" y="94" fill="#58a6ff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">{longest}</text>',
+        '<text x="390" y="91" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="16">days</text>',
+        '<text x="338" y="117" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">LONGEST STREAK</text>',
+        '</svg>',
+    ])
+
+
 def main() -> None:
     token = os.environ.get("GH_STATS_TOKEN")
     if not token:
@@ -135,6 +173,8 @@ def main() -> None:
     output = Path("profile/contributions.svg")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(render_svg(calendar), encoding="utf-8")
+    streak_output = Path("profile/streak.svg")
+    streak_output.write_text(render_streak_svg(calendar), encoding="utf-8")
     print(f"Generated contribution timeline for {calendar['totalContributions']} contributions.")
 
 
