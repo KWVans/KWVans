@@ -15,7 +15,11 @@ API = "https://api.github.com"
 GRAPHQL_QUERY = """
 query($login: String!, $cursor: String) {
   user(login: $login) {
-    topRepositories(first: 100, after: $cursor) {
+    topRepositories(
+      first: 100
+      after: $cursor
+      orderBy: { field: PUSHED_AT, direction: DESC }
+    ) {
       nodes { nameWithOwner }
       pageInfo { hasNextPage endCursor }
     }
