@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
+  <title id="title">How I work</title>
+  <desc id="desc">Four principles: understand the problem, build for maintainability, iterate in small steps, and validate before shipping.</desc>
+  <defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#56d4ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+  <rect x="1" y="1" width="998" height="208" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="36" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1.3">MY PRINCIPLES</text>
+  <path d="M117 91H883" stroke="#30363d" stroke-width="2"/>
+  <path d="M117 91H883" stroke="url(#line)" stroke-width="2" opacity=".75"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(130 91)"><circle r="23" fill="#142942" stroke="#56d4ff"/><text y="6" fill="#56d4ff" font-size="17" font-weight="700">01</text><text y="55" fill="#f0f6fc" font-size="14" font-weight="700">Understand</text><text y="76" fill="#8b949e" font-size="11">Start with the user need</text></g>
+    <g transform="translate(377 91)"><circle r="23" fill="#1b1b3a" stroke="#8b8cff"/><text y="6" fill="#a5a6ff" font-size="17" font-weight="700">02</text><text y="55" fill="#f0f6fc" font-size="14" font-weight="700">Keep it clear</text><text y="76" fill="#8b949e" font-size="11">Make code easy to evolve</text></g>
+    <g transform="translate(624 91)"><circle r="23" fill="#1b2c26" stroke="#56c596"/><text y="6" fill="#73ddb2" font-size="17" font-weight="700">03</text><text y="55" fill="#f0f6fc" font-size="14" font-weight="700">Iterate</text><text y="76" fill="#8b949e" font-size="11">Build in focused steps</text></g>
+    <g transform="translate(871 91)"><circle r="23" fill="#30251a" stroke="#f0aa61"/><text y="6" fill="#ffc078" font-size="17" font-weight="700">04</text><text y="55" fill="#f0f6fc" font-size="14" font-weight="700">Validate &amp; ship</text><text y="76" fill="#8b949e" font-size="11">Check flows, then improve</text></g>
+  </g>
+</svg>

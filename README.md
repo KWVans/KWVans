@@ -1,9 +1,10 @@
-<h1 align="center">Hi, I’m Kelvin Selase 👋</h1>
-<p align="center"><b>Flutter Developer | Dart & Cross-Platform App Development</b></p>
+<p align="center">
+  <img src="./profile/hero.svg" width="100%" alt="Kelvin Selase — Flutter developer building cross-platform products" />
+</p>
 
 <p align="center">
-  <a href="https://github.com/KWVans">GitHub</a> ·
-  <a href="https://github.com/NetHub">NetHub</a>
+  <a href="https://github.com/KWVans"><img alt="GitHub: @KWVans" src="https://img.shields.io/badge/GitHub-%40KWVans-161b22?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/KWVans?tab=repositories"><img alt="Explore my repositories" src="https://img.shields.io/badge/Explore-Projects-0969da?style=for-the-badge&logo=github" /></a>
 </p>
 
 ## About Me
@@ -38,10 +39,9 @@ Most of my development happens in private repositories, so public code is only o
 
 ## How I Work
 
-- Start with the user problem and clarify what success looks like.
-- Keep code organized, readable, and maintainable as features grow.
-- Build in small iterations and validate the important flows.
-- Communicate progress and ship improvements consistently.
+<p align="center">
+  <img src="./profile/how-i-work.svg" width="100%" alt="How I work: understand the problem, keep solutions maintainable, build iteratively, and validate before shipping" />
+</p>
 
 ## Flutter Focus
 
@@ -60,15 +60,9 @@ Most of my development happens in private repositories, so public code is only o
 
 ## Project Workflow
 
-<table>
-  <tr>
-    <td align="center"><b>1 · Understand</b><br/>Goals and requirements</td>
-    <td align="center"><b>2 · Plan</b><br/>Structure and milestones</td>
-    <td align="center"><b>3 · Build</b><br/>Small, focused iterations</td>
-    <td align="center"><b>4 · Validate</b><br/>Check key user flows</td>
-    <td align="center"><b>5 · Ship</b><br/>Deploy and improve</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./profile/project-workflow.svg" width="100%" alt="Project workflow: understand, plan, build, validate, and ship" />
+</p>
 
 ## Skills
 

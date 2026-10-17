@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">Kelvin Selase — MorningStar_Vans</title>
+  <desc id="desc">Flutter developer focused on state management, architecture, and cross-platform applications.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#101b2d"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#54d6ff"/><stop offset=".52" stop-color="#8b8cff"/><stop offset="1" stop-color="#b28dff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#4d91ff" stop-opacity=".25"/><stop offset="1" stop-color="#4d91ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1000" height="250" rx="20" fill="url(#bg)"/>
+  <circle cx="870" cy="90" r="210" fill="url(#glow)"/>
+  <path d="M24 20v210" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <text x="58" y="76" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="3">HELLO, I'M</text>
+  <text x="56" y="132" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">Kelvin Selase</text>
+  <text x="58" y="169" fill="#9fb4ce" font-family="Segoe UI,Arial,sans-serif" font-size="19">Flutter Developer · Cross-platform app builder</text>
+  <rect x="58" y="194" width="202" height="30" rx="15" fill="#142942" stroke="#28527a"/>
+  <circle cx="75" cy="209" r="5" fill="#54d6ff"/>
+  <text x="89" y="214" fill="#c6e9ff" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">MorningStar_Vans · KWVans</text>
+  <g transform="translate(808 72)" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 39 38 0l38 39-38 39z" opacity=".92"/><path d="m22 39 16-17 16 17-16 17z" opacity=".55"/>
+    <circle cx="38" cy="39" r="67" stroke="#49678a" stroke-width="1" opacity=".5"/>
+  </g>
+</svg>
