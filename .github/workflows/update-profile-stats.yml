@@ -36,15 +36,22 @@ jobs:
             exit 1
           fi
 
-          private_repo_count=$(curl --fail --silent --show-error \
-            -H "Authorization: Bearer $GH_STATS_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "$api/user/repos?visibility=private&per_page=1" | jq 'length')
+          private_repo_count=0
+          page=1
+          while true; do
+            page_count=$(curl --fail --silent --show-error \
+              -H "Authorization: Bearer $GH_STATS_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "$api/user/repos?visibility=private&affiliation=owner,collaborator,organization_member&per_page=100&page=$page" | jq 'length')
+            private_repo_count=$((private_repo_count + page_count))
+            if [ "$page_count" -lt 100 ]; then break; fi
+            page=$((page + 1))
+          done
           if [ "$private_repo_count" -lt 1 ]; then
             echo "::error::GH_STATS_TOKEN cannot access any private repositories. Check its repo scope and repository/organization access. No repository names were logged."
             exit 1
           fi
-          echo "Token identity and private-repository access verified."
+          echo "Token identity verified; it can access $private_repo_count private repositories. Repository names were not logged."
 
       - name: Generate GitHub contribution timeline
         env:
@@ -55,19 +62,15 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=KWVans&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=contributions,all_time_contribs&contribs_include_own_repos=true
+          options: username=KWVans&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=contributions,all_time_contribs&contribs_include_own_repos=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
 
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=KWVans&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
-          path: profile/top-langs.svg
-          token: ${{ secrets.GH_STATS_TOKEN }}
-          fail_on_error: true
+      - name: Generate top languages across owned and contributed repositories
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: python scripts/generate-top-languages.py
 
       - name: Commit updated cards
         run: |

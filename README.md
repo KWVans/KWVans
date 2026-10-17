@@ -151,7 +151,7 @@ Some of these projects are private, so the descriptions below share their purpos
 
 <p align="center">
   <img width="467" src="./profile/stats.svg" alt="GitHub statistics and contributions" />
-  <img width="300" src="./profile/top-langs.svg" alt="Most used languages" />
+  <img width="500" src="./profile/top-langs.svg" alt="Most used languages across owned, private, and contributed repositories" />
 </p>
 
 ## Contribution Calendar & Streak
