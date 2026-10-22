@@ -6,12 +6,12 @@
 <text x="22" y="51" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="10">Owned, private, organization, collaborator &amp; contributed repositories</text>
 <text x="22" y="89" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">TypeScript</text>
 <rect x="175" y="79" width="230" height="10" rx="5" fill="#30363d"/>
-<rect x="175" y="79" width="100.66" height="10" rx="5" fill="#54d6ff"/>
+<rect x="175" y="79" width="100.64" height="10" rx="5" fill="#54d6ff"/>
 <text x="419" y="89" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">43.76%</text>
 <text x="22" y="117" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">JavaScript</text>
 <rect x="175" y="107" width="230" height="10" rx="5" fill="#30363d"/>
-<rect x="175" y="107" width="92.37" height="10" rx="5" fill="#a78bfa"/>
-<text x="419" y="117" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">40.16%</text>
+<rect x="175" y="107" width="92.39" height="10" rx="5" fill="#a78bfa"/>
+<text x="419" y="117" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">40.17%</text>
 <text x="22" y="145" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">Dart</text>
 <rect x="175" y="135" width="230" height="10" rx="5" fill="#30363d"/>
 <rect x="175" y="135" width="13.63" height="10" rx="5" fill="#73ddb2"/>
