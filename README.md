@@ -138,7 +138,7 @@ Some of these projects are private, so the descriptions below share their purpos
   <tr>
     <td width="50%" valign="top">
       <h3>📦 Multi-Organization Inventory</h3>
-      <p>Inventory, onboarding, organization management, and access workflows for multiple teams.</p>
+      <p>Inventory, onboarding, organization management, stock and access workflows for multiple teams.</p>
     </td>
     <td width="50%" valign="top">
       <h3>🎙️ AI Voice Experiences</h3>
