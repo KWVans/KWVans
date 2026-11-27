@@ -18,7 +18,7 @@ Most of my development happens in private repositories, so public code is only o
 - Build cross-platform applications with Flutter and Dart
 - Develop responsive web applications and product interfaces
 - Create dashboards, admin tools, and business workflows
-- Integrate cloud backends, authentication, and AI services
+- Integrate cloud backends, authentications, and AI services
 - Take products from early prototype through deployment
 
 ## Tech Stack
@@ -53,7 +53,7 @@ Most of my development happens in private repositories, so public code is only o
     </td>
     <td width="50%" valign="top">
       <h3>🏗️ App Architecture</h3>
-      <p>Organize features into clear boundaries so screens, business logic, and data access can evolve independently.</p>
+      <p>Organize features into clear boundaries so screens, business logics, and data access can evolve independently.</p>
     </td>
   </tr>
 </table>
